@@ -65,6 +65,14 @@ public class Instructor {
         this.email = email;
     }
 
+    public InstructorDetail getInstructorDetail() {
+        return instructorDetail;
+    }
+
+    public void setInstructorDetail(InstructorDetail instructorDetail) {
+        this.instructorDetail = instructorDetail;
+    }
+
     @Override
     public String toString() {
         return "Instructor{" +
@@ -72,6 +80,7 @@ public class Instructor {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
+                ", instructorDetail=" + instructorDetail +
                 '}';
     }
 }
